@@ -1,42 +1,9 @@
-# Nuxt 3 Minimal Starter
+# Trello Board Vue
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a project that mimics trello's basic function.
 
-## Setup
+You can drag & drop tasks and columns to rearrange their positions.
 
-Make sure to install the dependencies:
+![preview](readme/drag-preview.gif)
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+You can preview app via this [link](https://roytu-my-trello-board.netlify.app/) hosted by netlify.

@@ -10,6 +10,7 @@
         Drag <span class="drag-handle cursor-grab text-lg"> ⠋ </span> to move
         task and columns.
       </p>
+      <p>Hold <kbd>alt</kbd> and drag to copy task.</p>
     </footer>
   </div>
 </template>

@@ -5,4 +5,9 @@ export default defineNuxtConfig({
   devServer: {
     port: 2258,
   },
+  app: {
+    head: {
+      title: "My Trello Board",
+    },
+  },
 });
