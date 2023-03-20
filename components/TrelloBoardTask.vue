@@ -17,15 +17,19 @@
 <template>
   <div
     :title="new Date(task.createdAt).toLocaleDateString()"
-    class="task bg-white p-2 mb-2 rounded shadow-sm max-w-[250px] flex"
+    class="task bg-white p-2 mb-2 rounded shadow-sm max-w-[250px] flex items-start"
     @focus="focused = true"
     @blur="focused = false"
     tabindex="0"
   >
     <DragHandle class="pr-2" />
-    <span>
+    <span class="w-4/5 pr-2 break-words">
       {{ task.title }}
     </span>
+    <DeleteButton
+      @delete="emit('delete', props.task.id)"
+      class="min-w-[0.65rem]"
+    />
   </div>
 </template>
 
